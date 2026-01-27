@@ -10,3 +10,5 @@ A microservice system 📦 developed with FastAPI and Docker for statistical sum
 - **Enable easy integration with other services or data pipelines**
 
 # Features 🖌️
+- **Health check endpoint (GET /health):**
+  Confirms that the service is running and stable.
