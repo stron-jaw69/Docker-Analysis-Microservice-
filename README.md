@@ -12,3 +12,9 @@ A microservice system 📦 developed with FastAPI and Docker for statistical sum
 # Features 🖌️
 - **Health check endpoint (GET /health):**
   Confirms that the service is running and stable.
+- **Summary endpoint (POST /summary):**
+  Count
+  Mean
+  Standard deviation
+  Min/ Max
+  Median
