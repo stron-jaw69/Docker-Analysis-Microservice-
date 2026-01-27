@@ -1,4 +1,4 @@
-# Data-Analysis-Microservice-
+  # Data-Analysis-Microservice-
 Collection xvi
 
 A microservice system 📦 developed with FastAPI and Docker for statistical summaries for numeric datasets. It exposes simple REST endpoints to compute count, mean, standard deviation, minimum, maximum, and median values. 
@@ -13,8 +13,4 @@ A microservice system 📦 developed with FastAPI and Docker for statistical sum
 - **Health check endpoint (GET /health):**
   Confirms that the service is running and stable.
 - **Summary endpoint (POST /summary):**
-  Count
-  Mean
-  Standard deviation
-  Min/ Max
-  Median
+  Count  -Mean  -Standard deviation  -Min/ Max  -Median
