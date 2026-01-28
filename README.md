@@ -16,4 +16,6 @@ Collection xvi
   Count  -Mean  -Standard deviation  -Min/ Max  -Median
 - **Dockerized Deployment:**
   Fully containerized environment for continuous reproducible execution.
-  
+# Technical Stack ⚙️
+ Layer | Technology 
+-------|-------------  
