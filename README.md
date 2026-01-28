@@ -14,3 +14,6 @@ Collection xvi
   Confirms that the service is running and stable.
 - **Summary endpoint (POST /summary):**
   Count  -Mean  -Standard deviation  -Min/ Max  -Median
+- **Dockerized Deployment:**
+  Fully containerized environment for continuous reproducible execution.
+  
