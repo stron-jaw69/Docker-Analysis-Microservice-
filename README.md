@@ -17,5 +17,10 @@ Collection xvi
 - **Dockerized Deployment:**
   Fully containerized environment for continuous reproducible execution.
 # Technical Stack ⚙️
- Layer | Technology 
+ Technology | Layer
 -------|-------------  
+**Docker**| Containerization and deployment
+**Python**| 3.11	Core runtime environment
+**FastAPI**| Web framework for building the API
+**Pydantic**| Request validation and data modeling
+**Pandas**| Statistical computation
