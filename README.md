@@ -38,4 +38,6 @@ Collection xvi
 docker run -p 8000:8000 data-analysis-service
 ### 4. Test API [Health check]
 curl http://localhost:8000/health
+### 5. Workflow
+
 
