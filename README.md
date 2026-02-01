@@ -34,5 +34,7 @@ Collection xvi
 - cd <project-folder>
 ### 2. Build Docker image
 - docker build -t data-analysis-service .
-### 3.
+### 3. Run Container
+docker run -p 8000:8000 data-analysis-service
+### 4. 
 
