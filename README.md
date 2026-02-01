@@ -24,3 +24,8 @@ Collection xvi
 **FastAPI**| Web framework for building the API
 **Pydantic**| Request validation and data modeling
 **Pandas**| Statistical computation
+**Uvicorn**| ASGI server for running FastAPI
+
+# Getting Started 📦
+- Docker installed
+- Python 3.11
