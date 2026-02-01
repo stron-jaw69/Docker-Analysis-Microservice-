@@ -36,5 +36,5 @@ Collection xvi
 - docker build -t data-analysis-service .
 ### 3. Run Container
 docker run -p 8000:8000 data-analysis-service
-### 4. 
+### 4. Test API
 
