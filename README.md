@@ -29,3 +29,10 @@ Collection xvi
 # Getting Started 📦
 - Docker installed
 - Python 3.11
+### 1. Clone the repository
+- git clone <repo-url>
+- cd <project-folder>
+### 2. Build Docker image
+- docker build -t data-analysis-service .
+### 3.
+
