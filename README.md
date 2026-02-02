@@ -40,5 +40,6 @@ docker run -p 8000:8000 data-analysis-service
 curl http://localhost:8000/health
 ### 5. Workflow
 1. Send a POST request to "/summary" with a JSON body containing a list.
-2. 
+2. DataRequest model validates the request.
+3. 
 
