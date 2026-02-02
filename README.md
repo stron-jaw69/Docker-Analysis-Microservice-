@@ -42,4 +42,4 @@ curl http://localhost:8000/health
 1. Send a POST request to "/summary" with a JSON body containing a list.
 2. DataRequest model validates the request.
 3. The service converts the list into a Pandas series
-
+4. Metrics are computed (count, mean, median, standard deviation)
