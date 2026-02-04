@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     g++ \
     libatlas-base-dev \
+    liblapack-dev \
+    libblas-dev \
     
 WORKDIR /app
 
