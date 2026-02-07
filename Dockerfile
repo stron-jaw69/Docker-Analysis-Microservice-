@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     liblapack-dev \
     libblas-dev \
     && apt-get clean \
-    && rm -rf
+    && rm -rf /var/lib/ap/lists/*
     
 WORKDIR /app
 
