@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir -r required.txt
 COPY main.py .
 
 # adjust permissions for non-root user
-RUN chown 
+RUN chown -R appuser:appuser /app
 
 EXPOSE 8000
 
