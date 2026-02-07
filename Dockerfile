@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libatlas-base-dev \
     liblapack-dev \
     libblas-dev \
+    && apt-get 
     
 WORKDIR /app
 
