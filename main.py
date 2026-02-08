@@ -1,11 +1,12 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
+from typing import List 
 import pandas as pd
 
 app = FastAPI(title="data analysis service")
 
 class DataRequest(BaseModel):
-    values: list[float]
+    values: list[float] 
 
 @app.get("/health")
 def health():
@@ -13,6 +14,8 @@ def health():
 @app.post("/summary")
 def summary(req: DataRequest):
     s = pd.Series(req.values)
+    # count to prevent repeated calls
+    count = int(s.count())
     result = {
         "count": int(s.count()),
         "mean": float(s.mean()),
